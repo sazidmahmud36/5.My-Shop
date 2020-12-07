@@ -1,0 +1,78 @@
+/*
+Theme Name: My Theme
+Theme URI: #
+Author: Sazid Mahmud
+Author URI: https://fb.com/sazidmahmud36
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.custom-logo{
+	width: 40%;
+	height: auto;
+	margin-top: 15px;
+}
+a{
+	color: #ce2c2f;
+}
+a:hover{
+	color: #333;
+}
+
+.button{
+	background: #ce2c2f;
+	border-bottom: 3px solid #333;
+}
+.button:hover{
+	background: #333;
+}
+header{
+	margin-bottom: 20px;
+}
+header .main-nav{
+	float: right;
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+header .main-nav li{
+	padding-right: 20px;
+}
+.showcase .callout{
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+.products .columns{
+	margin-bottom: 40px;
+}
+.product{
+	text-align: center;
+}
+
+.product .button{
+	margin-top: 10px;
+}
+.vertical li{
+	border-bottom: 1px solid #ccc;
+}
+.vertical li:last-child{
+	border-bottom: none;
+}
+footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 20px;
+	height: 70px;
+
+}
